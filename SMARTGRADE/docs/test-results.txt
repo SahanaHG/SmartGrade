@@ -1,0 +1,50 @@
+--- Validation tests ---
+[PASS] Empty student name is rejected
+[PASS] Name with digits is rejected
+[PASS] Name with spaces is accepted
+[PASS] Empty ID is rejected
+[PASS] Invalid ID (symbols/space) is rejected
+[PASS] Valid ID accepted and upper-cased
+[PASS] Marks below zero (-5) rejected
+[PASS] Marks above 100 (101) rejected
+[PASS] Letters instead of marks rejected
+[PASS] Empty marks rejected
+[PASS] Boundary marks 0 and 100 accepted
+[PASS] Semester 9 rejected
+[PASS] Duplicate subject names rejected
+--- Grade calculation tests ---
+[PASS] Total marks = 350
+[PASS] Average marks = 70
+[PASS] Percentage = 70
+[PASS] Highest = 90 / Lowest = 50
+[PASS] Strongest = Subject1, Weakest = Subject5
+[PASS] Grade boundaries 90/80/70/60/50/49.9 -> A+/A/B/C/D/F
+[PASS] 50% is PASS, 49.9% is FAIL
+[PASS] Recommendations are generated
+--- Student management tests ---
+[PASS] Multiple records stored (8 sample students)
+[PASS] Loading sample data twice adds no duplicates
+[PASS] Duplicate student ID rejected
+[PASS] Search by ID (case-insensitive)
+[PASS] Search by partial name
+[PASS] Search with unknown text returns nothing
+[PASS] Update details works
+[PASS] Update marks works (avg 95 -> A+)
+--- Class analytics tests ---
+[PASS] Passed + Failed = total students
+[PASS] Exactly 1 failing sample student (Karthik)
+[PASS] Topper is Rohan K (avg 95)
+[PASS] Lowest performer is Karthik Gowda
+[PASS] Ranking is sorted descending
+[PASS] Grade distribution adds up to total students
+[PASS] Subject averages calculated
+--- File persistence tests ---
+[PASS] Records are loaded again after 'restart'
+[PASS] Updated data survived restart
+[PASS] Marks survived restart
+--- Delete tests ---
+[PASS] Delete existing student returns true
+[PASS] Delete unknown student returns false
+[PASS] Deleted student is also removed from the file
+
+RESULT: 42 passed, 0 failed

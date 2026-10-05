@@ -1,0 +1,30 @@
+==================================================
+   SMARTGRADE - STUDENT PERFORMANCE REPORT
+   Track. Analyze. Improve.
+==================================================
+Student ID   : 102
+Name         : Deelip
+Department   : CSE
+Semester     : 5
+--------------------------------------------------
+SUBJECT                      MARKS   GRADE
+Mathematics                   95.0      A+
+DBMS                          89.0       A
+Java                         100.0      A+
+C++                           90.0      A+
+CNS                           98.0      A+
+--------------------------------------------------
+Total Marks  : 472.0 / 500
+Average      : 94.4
+Percentage   : 94.4%
+Grade        : A+
+Result       : PASS
+Highest      : 100.0 (Java)
+Lowest       : 89.0 (DBMS)
+Strongest    : Java
+Weakest      : DBMS
+--------------------------------------------------
+RECOMMENDATIONS
+ 1. Outstanding performance! Keep your consistent study routine.
+ 2. Challenge yourself with advanced topics, projects or competitions in Java.
+==================================================
