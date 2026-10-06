@@ -14,7 +14,7 @@ public class Main {
                 // the default look and feel is fine too
             }
             StudentManager manager = new StudentManager(new FileManager("data/students.csv"));
-            new Dashboard(manager).setVisible(true);
+            new WelcomePage(manager).setVisible(true);
         });
     }
 }
